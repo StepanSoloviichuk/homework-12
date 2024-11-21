@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене</title>
+</head>
+<body>
+    <h1>Привіт! Я Степан Соловійчук</h1>
+    <img src="photo/me.jpg" alt="Фото Степана" width="300">
+    <p>Я люблю програмування, а також своїх двох чудових кішок!</p>
+    <p>Цей сайт створено для домашнього завдання.</p>
+    <nav>
+        <ul>
+            <li><a href="pages/contact.html">Контакти</a></li>
+            <li><a href="pages/gallery.html">Галерея</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
