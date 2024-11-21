@@ -1,0 +1,58 @@
+project/
+├── index.html
+├── pages/
+│   ├── contact.html
+│   ├── gallery.html
+├── photo/
+│   ├── me.jpg
+│   ├── cat1.jpg
+│   ├── cat2.jpg
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене</title>
+</head>
+<body>
+    <h1>Привіт! Я Степан Соловійчук</h1>
+    <img src="photo/me.jpg" alt="Фото Степана" width="300">
+    <p>Я люблю програмування, а також своїх двох чудових кішок!</p>
+    <p>Цей сайт створено для домашнього завдання.</p>
+    <nav>
+        <ul>
+            <li><a href="pages/contact.html">Контакти</a></li>
+            <li><a href="pages/gallery.html">Галерея</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+</head>
+<body>
+    <h1>Контакти</h1>
+    <p>Моє ім'я: Степан Соловійчук</p>
+    <p>Email: <a href="mailto:vapr.54@ukr.net">vapr.54@ukr.net</a></p>
+    <a href="../index.html">На головну</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+</head>
+<body>
+    <h1>Галерея</h1>
+    <img src="../photo/cat1.jpg" alt="Кішка 1" width="300">
+    <img src="../photo/cat2.jpg" alt="Кішка 2" width="300">
+    <a href="../index.html">На головну</a>
+</body>
+</html>
